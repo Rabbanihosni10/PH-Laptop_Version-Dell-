@@ -1,0 +1,13 @@
+h1{
+    background-image: url(Goat/new.png);
+    background-image: url(Goat/deku-pictures-9qkuh2dwv1mbyesv.jpg) top left no repeat;
+    background-position: center;
+    /* height: 300px;
+    width:100%; */
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border: 2px solid red; */
+    background-attachment:center;
+    background-size: cover;
+    /* align-self: bottom; */
+}

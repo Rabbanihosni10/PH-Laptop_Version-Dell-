@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body{
+            border: 1px solid skyblue;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .image-container{
+            display: flex;
+        }
+        .image-container img{
+            width: 100%;
+        }
+        .image-container div{
+            width: 50%;
+        }
+        @media screen and (max-width:576px){
+            .image-container{
+                flex-direction: column-reverse;
+            }
+            .image-container div{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Elements that need for responsive website</h3>
+        <ol>
+            <li>Viewport er meta tag<p>eta r ki kono device er website er view ta nishchit kore</p></li>
+            <li>CSS Relative Unit(px,%,em)</li>
+            <li>body max width and horizontal center align</li>
+            <li>Image fluid</li>
+            <li>two column flex and use media query with flex direction column</li>
+            <li>multicollumn: grid layout</li>
+            <li>menu responsive: we need JS</li>
+        </ol>
+    </header>
+    <main>
+        <div class="image-container">
+            <div>
+                <img src="what-is-healthy-food--3616981_2022_dx_content_kh_whatishealthyfood_hro_mbl_640x364.webp" alt="">
+            </div>
+            <div>
+                <img src="tiger-97d6a6hmzdcz5ru0.jpg" alt="">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

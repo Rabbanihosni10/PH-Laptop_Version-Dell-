@@ -1,0 +1,142 @@
+For comment- ctrl+forward slash(/)
+
+--HyperText  means jekhane amra chhaile click korle onno kono file or site e jaite pari
+
+--Markup means a website has lots of tags or instructions work as marker in a website, it helps the website in the way how to display the text or image and other elements
+
+--sometimes we add some attributes in a opening tag
+
+
+Now starting with css-->
+CSS means Cascading Style Sheet
+Sheet is like a page
+cascading means like a fountain
+
+It is used for design a website, position change and giving colors
+in the cascade, if many comands have the same tag name then the last command will be used in here
+
+
+p{color: red}
+here p is the selector
+color is the property
+red is the value
+ and color and red both are the comand
+
+
+Types of CSS-->
+1. Inline CSS --> in the very tag        <h3 style="color: yellowgreen;">Learning Basic CSS</h3>
+2. Internal CSS --> inside the tag with an another tag
+
+  <style>
+    p{
+    background-color: rgb(71, 194, 133);
+    }
+    li{
+      background-color: rgba(255, 255, 0, 0.473);
+      color: aqua;
+    }
+    h4{
+      font: optional;
+    }
+  </style>
+
+3. External CSS --> we have to create an external file for CSS or style to give the command
+
+
+
+style attribute-->
+in style we have to give the command which type of style we want(color of the front, background color, front of the text etc) and the exact we want
+<h1 style="color:red;"></h1>
+here color is style rule and red is style value
+
+
+but in the inline CSS we can use it only the vary lin e we work. we have to change each and every line after every use. Thats the backclash of the inline CSS
+Thats why we use Internal CSS
+
+
+We will use these CSS units-->
+em
+rem
+%
+vw
+vh
+vmin
+vmax
+
+Also this vary unit-->
+px == pixels(1px=(1/96)th of 1in)
+
+
+specific kauke bujhaite id use kora hoi css e 
+#seco{
+  color:;
+  font-size:;
+}
+
+r jodi kono group k bujhaite class use kora hoi
+
+css has many selectors-
+--class selector (here use .)
+--id selector  (here use #)
+--element selector (bivinno tag niye j style kora hoi)
+--universal selector (here use *) (eta sob gulor upor apply hoi)(usually reset korte use kora hoi
+--grouping and attribute selectors (ekhane onkgula tag style korte use kora hoi)
+--Attribute slector
+
+
+id kebol ekber e use kora jabe kintu class onkber use kora jabe mane onkgula tag eksathe use kora jabe
+
+
+span--> eta use kora hoi webpage er kono choto ekta portion k access korte
+
+
+div--> ekta perticular pera create korte use kora jai
+
+border--> eta specific pera or line er charpashe use kora jai 
+er jonno style tag er modhe jeye-->
+<style>
+ p{
+ 	border:--__px--solid/dotted/dashed--color;
+  }
+</style>
+evabe use kora hoi
+Also border-top, border-bottom, border-left, border-right use kora jai 
+
+
+margin--> eta pera er majhe majhe line or space create e use kora hoi
+
+margin: __px;
+
+abr margin e margin-top, margin-bottom, margin-left, margin-right ei sequence use kora hoi
+eder individually o likha jai
+abr--> 
+margin: 10px 5px 7px 9px;
+eikhane 10 hoto margin-top, 5 holo margin-bottom, 7 holo margin-left, 9 holo margin-right
+ 
+
+akhn anra padding sikhbo
+border the content soraite padding use kora hoi
+/* padding-top: ; */
+         /* padding-bottom:;  */
+        /* padding-left: ; */
+       /* padding-right: ; */
+      /* padding: 20px; overall use hobe bujhano hoyeche*/
+     /* padding: 10px 20px 30px 40px; top-bottom-left-right*/
+    /* padding: 20px 50px; 1st er ta top-bottom, 2nd ta left-right */
+  /* padding: 20px 30px 40px; ekhane 1st er ta top e, 2nd ta 2 side ei, last er ta bottom */
+
+
+ekta website onkgula box niye toiri
+eita 5 jinish er upor depend kore(size)
+--Content er upor
+--border er upor
+--margin er upor
+--padding er upor
+
+
+display: none ;
+visibility: hidden;
+
+duitai same kaj kore 
+khali visibility hidden jaigata ta theke sorai hidden kore jaigata khali rakhe
+r display none ta jaiga soho jinishtai gayeb kore dei

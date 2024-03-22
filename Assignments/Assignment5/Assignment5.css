@@ -1,0 +1,24 @@
+/* *{
+    overflow-x: 134px;
+    overflow-y: 136px;
+}
+.hortok{
+    height: 550px;
+    width: 1171px;
+}
+.hortok1{
+    width: 1171px;
+}
+ul li:hover{
+    color: sandybrown;
+} */
+.toka{
+    position: relative;
+    left: 65%;
+    bottom: 76%;
+}
+.toka1{
+    position: relative;
+    left: 65%;
+    top: 8%;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .fruits_container li{
+            color: tomato;    
+        }
+        li{
+            color:aqua;
+        }
+        #fruits_id{
+            color: black;
+        }
+        .importent_places{
+            color: brown;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>welcome to my DOM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat dignissimos, aut dolorem tempora consequuntur tenetur qui accusamus quasi itaque!</p>
+    </header>
+    <main id="main-contain">
+        <section>
+            <h1>MY Awesome DOM de baba</h1>
+            <ul class="places-list">
+                <li>JAlali Set</li>
+                <li>Shafayet</li>
+                <li>Bonobqash</li>
+                <li>DOM de re baba</li>
+            </ul>    
+        </section>
+        <section  class="fruits_container">
+            <h1 id="fruits_id" class="fazal haque torab">Fruits i like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>CArrot</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 id="places_id">Places I Like to visit</h1>
+            <ul>
+                <li class="importent_places">Shundorban</li>
+                <li class="importent_places">Kataban</li>
+                <li class="importent_places">Bandorban</li>
+                <li class="importent_places">Shalbon</li>
+            </ul>
+        </section>
+        <script src="js/dom.js"></script>
+        <script> 
+            // const liCollectiuon=document.getElementsByTagName('li');
+            console.log('Hello World!');
+            console.log("I love my mother");
+            // console.log(h1.innerText);
+            //option1: getElementsByTagName 
+            const places=document.getElementsByClassName('importent_places');
+            for(const place of places){
+                console.log(place.innerText);
+            }
+            //option2: getElementsByClassName
+            //option3: getElementById
+            const fruitsTitle= document.getElementById('fruits_id');
+            fruitsTitle.innerText='Fruits Changed By JS';
+            //option4: querySelectorAll  
+            //option5: quarySelector  --> it will return the 1st element
+            const someLi=document.querySelectorAll('.fruits_container li')
+            for(const li of someLi){
+                console.log(li.innerText);
+            }
+            //console.log(document.querySelector());
+            //document.setAttribute('id/class')
+            //document.getElementsByClassName('fr uits_container')[0]
+            //document.getElementsByClassName('fruits_container')[0].innerHTML
+            //document.getElementsByClassName('fruits_container')[0].innerText
+            //in innerHTML every tags include comment tag can be seen
+            //while in innerText only existed tags txt are seen
+            
+
+            //Node and its calamities-->
+            //placeContainer.childNodes[3].childNodes.nextSiblings
+            //placeContainer.childNodes[3].childNodes
+            //placeContainer.childNodes[3]
+            //placeContainer.firstChild
+            //placeContainer.lastChild
+            //placeUl.parentNode
+            //placeUl.parentNode.parentNode
+            
+            //tag creation-
+            //document.createElement("tag name")
+        </script> 
+        <script src="js/styleJs.js"></script>
+        <script src="js/append.js"></script>
+    </main>
+</body>
+</html>
+<!--Document.getElementById("")-->
+<!--html collection(quarySelector) vs nodelist(quarySelectorAll)-->
+<!--for each vs for of-->

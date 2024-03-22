@@ -1,0 +1,11 @@
+What we need to do for a good website-->    
+    1.What type of website we want to built and need to find out similar type of website 
+    2.Color scheme
+    3.What we have to use 
+    4.Need to give lots of resources
+    5.Need to make one into user friendly
+    6.Need to be a responsive website
+
+
+HTML==HTML5
+CSS==CSS3

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Boxes Example</title>
+  <style>
+    /* Add some basic styling for demonstration purposes */
+    #mainContainer {
+      width: 300px;
+      margin: 30px Auto;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .box {
+      width: 100px;
+      height: 90px;
+      background-color: #f0f0f0;
+      margin: 5px;
+      display: inline-block;
+    }
+    #mainContainer1 {
+      width: 300px;
+      margin: 40px right;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div style="width: 100%;">
+    <div id="mainContainer" style="width: 50%; height: 100px; float: left;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+    </div>
+    <div id="mainContainer1" style="margin-left: 50%; height: 100px;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+    </div>
+  </div>
+</body>
+</html>

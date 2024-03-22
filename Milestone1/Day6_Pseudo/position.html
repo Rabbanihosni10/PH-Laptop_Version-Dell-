@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .swimcontainer{
+           position: relative;
+           border: 3px solid black; 
+        }
+        .box{
+            border: 2px dotted brown;
+            width: 200px;
+        }
+        .pik2{
+            position: relative;
+            left: 50px;
+            top: 30px;
+        }
+        .pik2{
+            position: absolute;
+            top:40px;
+            left: 100px;
+        }
+        .tummy{
+            border: 2px solid aqua;
+            width:100px;
+            height: 100px;
+        }
+        .pik2{
+            position: sticky;
+            top:0px;
+        }
+        .pik2{
+            position: fixed;
+            top:200px;
+            left: 300px;
+        }
+    </style> 
+</head>
+<body>
+    <h3>CSS Positions</h3>
+    <ol>
+        <li>Normal Position/Static position</li>
+        <li>Relative Position-- current position er relative e kototuku change hobe or jaba. and will not change the current spot.<small>(But if there is a parent class then it will move according to its parent class root</small></li>
+        <li>Absolute Position--- lose its own location and moving base on root position of the website</li>
+        <li>Fixed Position</li>
+        <li>Sticky Position</li>
+    </ol>
+    <div class="swimcontainer">
+        <div class="box pik1">
+            <img src="pikachu-transparent-hd-1.png" alt="A swiming boy">
+        </div>
+        <div class="box pik2">
+            <img src="pikachu-transparent-hd-1.png" alt="Ring">
+        </div>
+        <div class="box pik3">
+            <img src="pikachu-transparent-hd-1.png" alt="Water">
+        </div>
+        <div class="tummy"></div>
+        <div class="tummy"></div>
+        <div class="tummy"></div>
+        <div class="tummy"></div>
+        <div class="tummy"></div>
+    </div>
+</body>
+</html>

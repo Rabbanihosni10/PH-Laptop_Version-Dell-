@@ -1,0 +1,145 @@
+/* Universal  */
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 52px 135px;
+}
+.menu>ul{
+    display: flex;
+}
+.menu>ul>li{
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px; 
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+.menu>ul>li:hover{
+    color: #FF5400;
+    cursor: pointer;
+}
+.logo-name{
+    display: flex;
+}
+.logo-name img{
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+.logo-name h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color:#131313;
+    position: relative;
+    top: -20px;
+    left: 15px;
+}
+.logo-name span{
+    color: #FF5400;
+}
+
+/* form section */
+.explore{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1170;
+    height: 700px;
+    margin: auto 135px;
+}
+.explore .explore-title{
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    top: 30%;
+}
+.explore .explore-txt{
+    width: 676px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    position: relative;
+    top: 27%;
+    left: 35%;
+    text-align: center;
+}
+.explore .form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    margin: 5px auto;
+    align-items: flex-start;    
+    gap: 24px;
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.forom{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    cursor: pointer;
+}
+option{
+    color: #13131880;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media screen and (max-width: 576px) {
+    header{
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .explore .form{
+        position: absolute
+    }
+    
+}

@@ -1,0 +1,36 @@
+/* common share style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav related styles */
+nav{
+    display: flex;
+
+}
+.nav-title{
+    color: black;
+    font-size: 45x;
+    font-weight: 800;
+}
+span{
+    color: orange;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:tan
+}
+nav a:hover{
+    background-color: lightgray;
+}
+.btn-prime{
+    border-radius: 5px;
+    background: orange;
+    border-color: none;
+}

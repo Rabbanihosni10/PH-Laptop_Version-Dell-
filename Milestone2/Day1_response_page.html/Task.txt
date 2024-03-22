@@ -1,0 +1,7 @@
+--Focus on making images
+--implement responsive typography
+---Divide your website in small parts and make these responsive one by one
+
+Task1-
+Design a responsive flex layout
+(576 er cheye kom hoile left upore right niche)/ 576 er boro hoile left bam pashe and right dan pashe right e width beshi hobe

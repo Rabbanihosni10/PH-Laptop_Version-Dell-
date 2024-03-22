@@ -1,0 +1,26 @@
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 4px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+/* <!-- nested menu styles--> */
+
+nav li .Noyo{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+nav li:hover >.Noyo{
+    display: block;
+}

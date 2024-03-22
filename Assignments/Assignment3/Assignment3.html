@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        #toki:hover{
+            color: #FF4240;
+        }
+        .font-monorope{
+            font-family: 'Manrope', sans-serif;
+        }
+        .screen{
+            margin-top: 25px;
+            height: 550px;
+            width: 1170px;
+        }
+        .screen1{
+            margin-top: 25px;
+            height: 534px;
+            width: 1170px;
+            border-radius: 16px;
+            border: 1px solid rgba(19, 19, 24, 0.10);
+        }
+        .top{
+          position: relative;
+          bottom: 175px;
+        }
+        .butn1{
+            background-color: black;
+            color: white;
+            border-style: none;
+        }
+        .tora:hover{
+            background-color: palegreen;
+            color: black;
+        }
+        .doted{
+            margin-top: 100px;
+            border-top: 3px dashed lightgray;
+        }
+        .doted1{
+            border-top: 2px dashed lightgray;
+        }
+        .pos{
+            position: relative;
+            left:275px;
+        }
+        .pos1{
+          position: relative;
+          left: 175px;
+        }
+        .hukka{
+            position: relative;
+            left: -20%;
+        }
+        .hukka1{
+            position: relative;
+            left: -32%;
+        }
+        .caro{
+          position: relative;
+          left: -16%;
+        }
+        .kup{
+          position: relative;
+          left: 20%;
+          margin-top: 10%;
+          margin-bottom: 10%;
+        }
+        .left{
+          position: relative;
+          left:12.5%
+        }
+        .heroku{
+          border-radius: 16px;
+          border: 2px solid rgba(19, 19, 24, 0.10);
+        }
+        .textarea{
+          width: 672px;
+          height: 370px;
+        }
+        .heroku1{
+          width: 474px;
+          height: 764px;
+          flex-shrink: 0;
+          border-radius: 16px;
+          border: 1px solid rgba(19, 19, 24, 0.10);
+
+        }
+        .social{
+          width: 1170px;
+          border-radius: 12px;
+          background: rgba(19, 19, 24, 0.03);
+        }
+        .foter{
+          width: 100%;
+          height: 454px;
+          background: #131318;
+        }
+        .normal{
+          width: 1170px;
+          height: 1px;
+          margin-top: 100px;
+          border-top: 3px dashed lightgray;
+        }
+        .normal1{
+          width: 1170px;
+          height: 1px;
+          border-top: 3px dashed lightgray;
+        }
+        .butn{
+          color: #FFF;
+          text-align: center;
+          font-size: 20px;
+          font-weight: 700;
+          border-radius: 8px;
+          border: 1px solid #FF4240;
+          background: #FF4240;
+        }
+        .card-bor{
+          width: 573px;
+          height: 218px;
+          border-radius: 16px;
+          border: 1px solid rgba(19, 19, 24, 0.10);
+        }
+        .left1{
+          position: relative;
+          left: 45%;
+        }
+        .footer-back{
+          width: 1170px;
+          
+        }
+        .txt-in{
+          width: 324px;
+          height: 64px;
+        }
+        .text-area{
+          width: 672px;
+          height: 370px;
+        }
+        .footer-back-1{
+          height: 150px;
+        }
+        .left2{
+          position: relative;
+          left: 40%;
+        }
+        .right2{
+          position: relative;
+          right: 5%;
+        }
+        .right3{
+          position: relative;
+          right: 40px;
+          left: 32%;
+        }
+        .small-he{
+          height: 200px;
+        }
+    </style>
+</head>
+<body class="py-8 px-12">
+    <header class="font-monorope">
+        <nav class="my-8">
+            <!-- head name- "Hockey's"  -->
+            <!-- li topics home,about,pages,blog,contact -->
+            <!-- search icon -->
+            <!-- button- Get Ticket -->
+            <div class="navbar bg-base-100 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li id="toki"><a>Home</a></li>
+                      <li id="toki"><a>About</a></li>
+                      <li id="toki"><a>Pages</a></li>
+                      <li id="toki"><a>Blog</a></li>
+                      <li id="toki"><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-4xl font-extrabold gap-0">Hockey<span class="text-red-500">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li id="toki"><a>Home</a></li>
+                    <li id="toki"><a>About</a></li>
+                    <li id="toki"><a>Pages</a></li>
+                    <li id="toki"><a>Blog</a></li>
+                    <li id="toki"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <button class="btn btn-ghost btn-circle w-6 h-6 mx-6 sm:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  <a class="btn btn-ghost bg-[#FF4240] text-white rounded-lg tora">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <div class="w-auto screen">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full h-80% sm:small-he">
+                  <img src="B9A3-Hockeys/Images/1.png" class="w-full screen " />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle butn1">❮</a> 
+                    <a href="#slide2" class="btn btn-circle butn1">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="B9A3-Hockeys/Images/2.png" class="w-full screen" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide1" class="btn btn-circle butn1">❮</a> 
+                      <a href="#slide3" class="btn btn-circle butn1">❯</a>
+                    </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="B9A3-Hockeys/Images/3.png" class="w-full screen" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle butn1">❮</a> 
+                    <a href="#slide4" class="btn btn-circle butn1">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="B9A3-Hockeys/Images/4.png" class="w-full screen" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide3" class="btn btn-circle butn1">❮</a> 
+                    <a href="#slide1" class="btn btn-circle butn1">❯</a>
+                  </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <section>
+            <hr class="doted py-2">
+            <div>
+               <h3 class="font-extrabold text-3xl text-center">Professional Hockeys Club</h3> 
+               <p class="text-base py-4 mx-4 w-1/2 text-center pos sm:-ml-12 right3">It's a Club situated during 1929. Basically Its a club for the beginner to learn welly hockey. We all love Hocky.</p>
+            </div>
+            <hr class="doted1 mt-2">
+        </section>
+        <section class="grid  md:grid-cols-2 kup sm:grid-cols-1 justify-center ml-12 left2 lg:grid-cols-4 hukka my-5 -mx-5 left mt-10">
+            <div class="-mx-12 mb-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+                    <path d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60ZM11.469 60C11.469 86.8029 33.1971 108.531 60 108.531C86.8029 108.531 108.531 86.8029 108.531 60C108.531 33.1971 86.8029 11.469 60 11.469C33.1971 11.469 11.469 33.1971 11.469 60Z" fill="#E7E7E8"/>
+                    <path d="M114.266 60C117.433 60 120.028 57.4265 119.726 54.2739C118.63 42.8387 114.268 31.914 107.102 22.8328C98.7478 12.2455 87.0702 4.78141 73.9534 1.64503C60.8366 -1.49135 47.0457 -0.117159 34.8058 5.54589C22.5658 11.2089 12.5907 20.8306 6.48991 32.8583C0.389129 44.8861 -1.48153 58.6185 1.17978 71.8398C3.84108 85.0612 10.8791 97.0004 21.1583 105.731C31.4376 114.462 44.3584 119.475 57.8362 119.961C69.3965 120.378 80.7882 117.444 90.6624 111.574C93.3847 109.955 93.9276 106.34 92.0567 103.785C90.1858 101.229 86.611 100.708 83.8529 102.265C76.0892 106.646 67.2324 108.824 58.2498 108.499C47.3483 108.106 36.8973 104.051 28.5829 96.9895C20.2686 89.9277 14.5759 80.2707 12.4233 69.5766C10.2707 58.8826 11.7837 47.7751 16.7184 38.0465C21.653 28.3178 29.7213 20.5354 39.6216 15.9548C49.5219 11.3742 60.6767 10.2627 71.2862 12.7996C81.8957 15.3364 91.3411 21.3737 98.0985 29.9373C103.666 36.9936 107.142 45.426 108.193 54.2786C108.566 57.4236 111.098 60 114.266 60Z" fill="#FF4240"/>
+                    <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="20" fill="#000">87%</text>
+                </svg>
+                <div class="-mx-11">
+                  <h2 class="mx-12 font-semibold text-xl">Prayer Facility</h2>
+                  <p class=" w-1/2 font-normal text-center text-base sm:-ml-12 right2">We have a beautiful praying facilities where players can pray during each waqt.</p>
+                </div>
+            </div>
+            <div class="-mx-12 mb-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+                    <path d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60ZM11.469 60C11.469 86.8029 33.1971 108.531 60 108.531C86.8029 108.531 108.531 86.8029 108.531 60C108.531 33.1971 86.8029 11.469 60 11.469C33.1971 11.469 11.469 33.1971 11.469 60Z" fill="#E7E7E8"/>
+                    <path d="M114.266 60C117.433 60 120.028 57.4266 119.726 54.274C118.506 41.5436 113.241 29.4793 104.626 19.8933C94.7273 8.87961 81.1057 1.91535 66.3817 0.340346C51.6576 -1.23466 36.8712 2.69086 24.8672 11.3617C12.8632 20.0325 4.48966 32.836 1.35752 47.3091C-1.77461 61.7821 0.55594 76.9021 7.90081 89.7603C15.2457 102.618 27.086 112.306 41.1438 116.96C55.2016 121.614 70.4837 120.905 84.0501 114.969C95.858 109.803 105.64 100.995 112.015 89.9081C113.593 87.1625 112.294 83.7461 109.41 82.4366C106.526 81.1272 103.155 82.426 101.515 85.1352C96.3546 93.6587 88.6662 100.431 79.4529 104.462C68.4798 109.263 56.1188 109.836 44.7481 106.072C33.3775 102.308 23.8005 94.4719 17.8596 84.0716C11.9187 73.6713 10.0336 61.4414 12.567 49.7349C15.1005 38.0284 21.8734 27.6723 31.5828 20.6589C41.2923 13.6455 53.2523 10.4704 65.1618 11.7443C77.0714 13.0182 88.0892 18.6513 96.0955 27.5597C102.818 35.0393 107.018 44.3841 108.193 54.2786C108.566 57.4236 111.098 60 114.266 60Z" fill="#49D293"/>
+                    <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="20" fill="#000">95%</text>
+                </svg>
+                <div class="-mx-11">
+                  <h2 class="mx-7 font-semibold text-xl">Exparienced Coach</h2>
+                  <p class="w-1/2 font-normal text-center text-base sm:-ml-12 right2">Our coach has a record for playing in the national team</p>
+                </div>
+            </div>
+            <div class="-mx-12 mb-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+                    <path d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60ZM11.469 60C11.469 86.8029 33.1971 108.531 60 108.531C86.8029 108.531 108.531 86.8029 108.531 60C108.531 33.1971 86.8029 11.469 60 11.469C33.1971 11.469 11.469 33.1971 11.469 60Z" fill="#E7E7E8"/>
+                    <path d="M110.134 80.7677C113.06 81.9797 116.443 80.5956 117.371 77.5673C120.973 65.8033 120.885 53.165 117.038 41.3814C112.596 27.7733 103.435 16.2017 91.2094 8.75578C78.9837 1.30986 64.4986 -1.51971 50.3695 0.777937C36.2403 3.07558 23.3982 10.349 14.1616 21.2851C4.92507 32.2212 -0.0972474 46.0992 0.00142546 60.4136C0.100098 74.728 5.31326 88.5355 14.6997 99.3431C24.0862 110.151 37.0273 117.247 51.1868 119.349C63.4479 121.17 75.9229 119.143 86.9184 113.623C89.7488 112.202 90.5474 108.635 88.8628 105.953C87.1783 103.271 83.6496 102.497 80.7878 103.854C72.1379 107.954 62.4244 109.423 52.8714 108.005C41.4186 106.304 30.9511 100.565 23.3589 91.8227C15.7666 83.0809 11.55 71.9127 11.4702 60.3345C11.3903 48.7563 15.4526 37.5311 22.9236 28.6854C30.3946 19.8398 40.782 13.9567 52.2103 12.0982C63.6387 10.2398 75.3549 12.5285 85.2438 18.5511C95.1326 24.5737 102.542 33.9334 106.135 44.9403C109.132 54.1213 109.309 63.9437 106.713 73.1577C105.855 76.2061 107.208 79.5556 110.134 80.7677Z" fill="#FFB546"/>
+                    <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="20" fill="#000">90%</text>
+                </svg>
+                <div class="-mx-11">
+                  <h2 class="mx-12 font-semibold text-xl">Senior Player</h2>
+                  <p class="w-1/2 font-normal text-center text-base sm:-ml-12 right2">We have many player playing in the division</p>
+                </div>
+            </div>
+            <div class="-mx-12">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+                    <path d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60ZM11.469 60C11.469 86.8029 33.1971 108.531 60 108.531C86.8029 108.531 108.531 86.8029 108.531 60C108.531 33.1971 86.8029 11.469 60 11.469C33.1971 11.469 11.469 33.1971 11.469 60Z" fill="#E7E7E8"/>
+                    <path d="M114.266 60C117.433 60 120.028 57.4265 119.726 54.2739C118.63 42.8387 114.268 31.914 107.102 22.8328C98.7478 12.2455 87.0702 4.78141 73.9534 1.64503C60.8366 -1.49135 47.0457 -0.117159 34.8058 5.54589C22.5658 11.2089 12.5907 20.8306 6.48991 32.8583C0.389129 44.8861 -1.48153 58.6185 1.17978 71.8398C3.84108 85.0612 10.8791 97.0004 21.1583 105.731C31.4376 114.462 44.3584 119.475 57.8362 119.961C69.3965 120.378 80.7882 117.444 90.6624 111.574C93.3847 109.955 93.9276 106.34 92.0567 103.785C90.1858 101.229 86.611 100.708 83.8529 102.265C76.0892 106.646 67.2324 108.824 58.2498 108.499C47.3483 108.106 36.8973 104.051 28.5829 96.9895C20.2686 89.9277 14.5759 80.2707 12.4233 69.5766C10.2707 58.8826 11.7837 47.7751 16.7184 38.0465C21.653 28.3178 29.7213 20.5354 39.6216 15.9548C49.5219 11.3742 60.6767 10.2627 71.2862 12.7996C81.8957 15.3364 91.3411 21.3737 98.0985 29.9373C103.666 36.9936 107.142 45.426 108.193 54.2786C108.566 57.4236 111.098 60 114.266 60Z" fill="#4C8DF1"/>
+                    <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="20" fill="#000">80%</text>
+                </svg>
+                <div class="-mx-11">
+                  <h2 class="mx-8 font-semibold text-xl">Training Ground</h2>
+                  <p class="w-1/2 -mx-3 font-normal text-center text-base sm:-ml-12 right2">We have a beautiful training ground with all facilities</p>
+                </div>  
+            </div>
+        </section>
+        <!-- program txt section -->
+        <section class="mt-10">
+          <hr class="doted1 mt-2">
+          <div class="mt-5">
+             <h3 class="font-extrabold text-3xl text-center">Program Sections</h3> 
+             <p class="text-base py-4 w-1/2 text-center pos sm:-ml-10 right3">We have several programs regarding the ages, sports and physical strength.</p>
+          </div>
+          <hr class="doted1 mt-2">
+        </section>
+        <!-- program card section -->
+        <section class="mt-10">
+          <div class="flex gap-5 justify-between">
+            <div class="card w-97 bg-base-100 shadow-xl image-full">
+              <figure><img src="B9A3-Hockeys/Images/2.png" alt="Shoes" /></figure>
+              <div class="card-body mt-12 sm:-mb-4">
+                <h2 class="card-title">Junior Program</h2>
+                <p>The Junior Hockey Program shapes young talents, emphasizing skills, teamwork, and resilience, crafting dedicated and skilled junior hockey players.</p>
+                <div class="card-actions mb-10">
+                  <button class="btn btn-primary butn">Register now!</button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-97 bg-[#13131880] shadow-xl image-full">
+              <figure><img src="B9A3-Hockeys/Images/3.png" alt="Shoes" /></figure>
+              <div class="card-body mt-12 sm:-mb-4">
+                <h2 class="card-title">Teenager Program</h2>
+                <p>Our Teenager Hockey Program molds young athletes, blending skill development, teamwork, and resilience, creating passionate and skilled hockey players.</p>
+                <div class="card-actions mb-10">
+                  <button class="btn btn-primary butn sm:mt-4">Register Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="card w-100 h-100 bg-[#13131880] shadow-lg image-full">
+              <figure><img src="B9A3-Hockeys/Images/4.png" alt="Shoes" /></figure>
+              <div class="card-body mt-12 relative top-12 sm:mb-4">
+                <h2 class="card-title">Professional Program</h2>
+                <p class="w-1/2 sm:mt-4 mb:12 relative bottom-2">The Professional Hockey Program refines elite skills, prioritizing advanced techniques, teamwork, and mental fortitude, shaping accomplished professional hockey players.</p>
+                <div class="card-actions mb-12 relative bottom-12">
+                  <button class="btn btn-primary butn sm:mt-12 relative top-2">Register Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- new product section -->
+        <section class="mt-10">
+          <hr class="doted1 mt-2">
+          <div class="mt-5">
+             <h3 class="font-extrabold text-3xl text-center">Our New Products</h3> 
+             <p class="text-base py-4 w-1/2 mx-5 text-center pos sm:-ml-10 right3">Explore our club's cutting-edge hockey gear and apparel, enhancing performance and style on the ice.</p>
+          </div>
+          <hr class="doted1 mt-2">
+        </section>
+        <section class="grid grid-cols-2 justify-between gap-5 mt-10 sm:grid-cols-1">
+          <!-- card1 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/5.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/6.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/7.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/8.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card5 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/9.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card6 -->
+          <div class="card lg:card-side bg-base-100 shadow-xl card-bor justify-center item-center sm:card-side bg-base-100 shadow-xl card-bor justify-center item-center">
+            <figure><img src="B9A3-Hockeys/Images/10.png" alt="Album"/></figure>
+            <div>
+              <div class="flex gap-4 relative left-5 top-6">
+                <div class="flex">
+                  <i class="fa-solid fa-star text-amber-400 my-1 mx-2"></i>             
+                  <p class="text-gray">5.0</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-eye my-1 mx-2"></i>
+                  <p class="text-gray">20</p>
+                </div>
+                <div class="flex">
+                  <i class="fa-regular fa-heart my-1 mx-2"></i>
+                  <p class="text-gray">200</p>
+                </div>
+              </div>
+              <div class="card-body mt-3">
+                <div>
+                  <h2 class="card-title">World Cup Flags Football</h2>
+                  <p class="mt-5">Click the button to listen on Spotiwhy app.</p>
+                </div>
+              </div>
+              <div class="card-footer flex -my-3 mx-8 gap-5">
+                <h2 class="text-lg text-[#FF4240] font-extrabold">Price-$22.00</h2>
+                <div class="flex">
+                  <i class="fa-solid fa-cart-shopping fill-none my-1.5 mx-2"></i>
+                  <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Client question section -->
+        <section>
+          <hr class="normal">
+          <div class="mt-5 left1">
+            <h3 class="font-extrabold text-3xl ml-5 pos1">Clients Question</h3> 
+            <p class="text-base py-4 w-1/2 mx-5 w-1 pos1">Our Clients Usually asked this type of question. Find if you have the same questions</p>
+          </div>     
+          <hr class="normal1">
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <section class="screen1">
+          <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row top">
+              <img src="B9A3-Hockeys/Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>All types of Advanced gym equipments and lots of sports equipments</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>We are giving lots of training so that he or she can prepared for his/her future</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>We also have special service for personal perpouse also</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>The best trainer of the country are giving this training</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Booking
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Pricing
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br>
+        <section>
+          <hr class="normal">
+          <div class="mt-5 left1">
+            <h3 class="font-extrabold text-3xl ml-5 pos1">Get In Touch</h3> 
+            <p class="text-base py-4 w-1/2 mx-5 w-1 pos1">You can communicate with us with this methods. You can subscribe for more update.</p>
+          </div>     
+          <hr class="normal1">
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- get in touch section -->
+        <section class="flex justify-between mt-10 footer-back relative right-12">
+          <div class="mx-12 heroku1">
+            <!-- card1 -->
+            <div class="card w-96 bg-base-100 shadow-xl my-10 mx-11">
+              <figure class="px-10 pt-10 hukka1">
+                <img src="B9A3-Hockeys/Images/Group 1171275317.png" alt="Shoes" class="rounded-xl"/>
+              </figure>
+              <div class="card-body items-center text-center caro sm:text-center">
+                <p class=" caro ml-11">Phone Number:</p>
+                <h2 class="card-title">(+62) 123-321-543</h2>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="card w-96 bg-base-100 shadow-xl my-5 my-10 mx-11">
+              <figure class="px-10 pt-10 hukka1">
+                <img src="B9A3-Hockeys/Images/Group 1171275318.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center caro sm:text-center">
+                <p class="hukka">Email:</p>
+                <h2 class="card-title ml-10">hockeys@support.com</h2>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="card w-96 bg-base-100 shadow-xl my-5 my-10 mx-11">
+              <figure class="px-10 pt-10 hukka1">
+                <img src="B9A3-Hockeys/Images/Group 1171275321.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center caro sm:text-center">
+                <p class="caro">Location:</p> 
+                <h2 class="card-title left ml-7">152/1 Mohakhali Wireless Gate</h2>
+              </div>
+            </div>
+          </div>
+          <div class="mt-7">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="relative">
+                <h3 class="card-title">Your Name</h3>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs bg-base-200 txt-in" />
+              </div>
+              <div class="relative">
+                <h3 class="card-title">Your Email</h3>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs bg-base-200 txt-in" />
+              </div>
+              <div class="relative">
+                <h3 class="card-title">Subject</h3>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs bg-base-200 t]xt-in" />
+              </div>
+              <div class="relative">
+                <h3 class="card-title">Phone Number</h3>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs bg-base-200 txt-in" />
+              </div>
+            </div>
+            <div class="mt-4">
+              <h3 class="card-title">Message</h3>
+              <textarea placeholder="Write your message" class="textarea textarea-bordered textarea-lg w-full max-w-xs textarea bg-base-200 text-area"></textarea>
+            </div>
+            <button class="btn btn-wide butn mt-6 w-full">Send Message</button>
+          </div>
+        </section>
+        <br>
+        <section class="footer-back mt-10 mb-10">
+          <div class="hero bg-base-200">
+            <div class="hero-content text-center">
+              <div class="footer-back-1 items-center">
+                <header class="footer-title mt-12 text-xl font-extrabold">Social Media</header> 
+                <div class="grid grid-flow-col gap-4">
+                  <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+                  <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                  <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <br>
+
+    <!-- footer part -->
+    <footer class="footer p-12 text-base-content text-white w-full foter text-center h-1/3">
+      <aside>
+        <h1 class="font-extrabold text-2xl">Get In Touch</h1>
+        <p>You can communicate with us<br/>with mail or phone number<br>Also we have FB , YT , twitter</p>
+        <div class="flex gap-3">  
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="text-white">hockeys@support.com</p>
+        </div>
+        <div class="flex gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M2.25 6.75C2.25 15.034 8.966 21.75 17.25 21.75H19.5C20.0967 21.75 20.669 21.5129 21.091 21.091C21.5129 20.669 21.75 20.0967 21.75 19.5V18.128C21.75 17.612 21.399 17.162 20.898 17.037L16.475 15.931C16.035 15.821 15.573 15.986 15.302 16.348L14.332 17.641C14.05 18.017 13.563 18.183 13.122 18.021C11.4849 17.4191 9.99815 16.4686 8.76478 15.2352C7.53141 14.0018 6.58087 12.5151 5.979 10.878C5.817 10.437 5.983 9.95 6.359 9.668L7.652 8.698C8.015 8.427 8.179 7.964 8.069 7.525L6.963 3.102C6.90214 2.85869 6.76172 2.6427 6.56405 2.48834C6.36638 2.33397 6.1228 2.25008 5.872 2.25H4.5C3.90326 2.25 3.33097 2.48705 2.90901 2.90901C2.48705 3.33097 2.25 3.90326 2.25 4.5V6.75Z" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="text-white">(+62) 123-321-543</p>
+        </div>
+      </aside>      
+      <nav>
+        <header class="font-bold text-lg text-white">Company</header> 
+        <a class="link link-hover text-[#FFFFFF99]">About us</a>
+        <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
+        <a class="link link-hover text-[#FFFFFF99]">Careers</a>
+        <a class="link link-hover text-[#FFFFFF99]">News & Article</a>
+        <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
+      </nav> 
+      <nav>
+        <header class="font-bold text-lg text-white">Support</header> 
+        <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
+        <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+        <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+        <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class="font-bold text-lg text-white">Services</header> 
+        <a class="link link-hover text-[#FFFFFF99]">Academy</a>
+        <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99]">Private Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99]">Hockeys for Kids</a>
+        <a class="link link-hover text-[#FFFFFF99]">Hockeys for Adult</a>
+      </nav>
+    </footer>
+</body>
+</html>

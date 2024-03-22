@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector document</title>
+    <style>
+        /* file{ */
+        /* } */
+        *{
+            margin: 5 ;
+        }
+        p{
+            color: red;
+        }
+        #fifth, li{
+            font-size: 26px;
+        }
+        .yellow, #Turu_lob{
+            color: green;
+            background-color: yellow;
+        }
+        .bold,.topa{
+            font-weight: 900;
+        }
+        input[type="password"]{
+            color:red;
+        }
+        .tuki{
+           color:aqua;
+        }
+        div,.noya{
+            color: cadetblue;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h2>Explore mixed selector</h2>
+    <p class="topa">My first <span class="tuki">line in CSS!</span></p>
+    <p class="yellow">My secound line in CSS!</p>
+    <p>My third line in CSS!</p>
+    <p class="yellow">My fouth line in CSS!</p>
+    <p id="fifth">My fifth line in CSS!</p>
+    <p>My sisxth line in CSS!</p>
+    <p class="bold">My seventh line in CSS!</p>
+    <ol>
+        <li>Class selector</li>
+        <li>Id selector</li>
+        <li id="Turu_lob">element selector</li>
+        <li>universal selector</li>
+        <li>Grouping Selector</li>
+    </ol>
+    <form action="">
+        <input type="text" placeholder="Enter the name" name=""><br>
+        <input type="password" placeholder="Exp--> sa3287@13#$!" name="" id=""><br>
+        <input type="submit" value="login">
+    </form>
+    <div>
+        <h3>My Dear</h3>    
+        <p class="noya">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ea, officiis expedita hic quaerat recusandae eos quam temporibus. Deleniti magnam consequatur similique laboriosam repellat vero corrupti inventore, quaerat animi iusto?</p>
+        <p>Oma gu turu love!</p>
+    </div>
+</body>
+</html>
+<!--We can comment this ways-->
+<!--we can also comment in this way(/*---*/) in a style or inside a tag-->

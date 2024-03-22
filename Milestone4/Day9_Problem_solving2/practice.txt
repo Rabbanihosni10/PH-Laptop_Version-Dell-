@@ -1,0 +1,4 @@
+show diagrammatically a hybrid topology that has a ring backbone.
+there are total 12 computers in this network and each are connected using
+multipoint connections only. also the degradation of quality can be reduced if
+you connect les than 4 nodes together.

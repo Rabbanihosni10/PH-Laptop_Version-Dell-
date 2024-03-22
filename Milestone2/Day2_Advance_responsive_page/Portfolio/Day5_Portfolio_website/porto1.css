@@ -1,0 +1,234 @@
+/* shared style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: orangered; 
+    border: 0;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+.section-title{
+    color:black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:gray;
+    text-align: center;
+    font-size: 18px;
+    
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 180px;
+}
+.ulala{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+span{
+    color:orangered;
+}
+nav ul{
+    display: flex;
+    /* align-items: center; */
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.head{
+    background-color:aliceblue;
+    background-image: url(pngtree-curved-background-design-png-image_2695208.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .Profile-pic{
+    width: 100;
+}
+.gret{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.ban-title{ 
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* main section styles */
+main{
+    max-width: 840px;
+    justify-content: center;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: peachpuff;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+/* what i do part */
+.what-do-container{
+    padding:30px 150px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.what-do-title{
+    text-align: center;
+}
+.skill-img{
+    height: 25px;
+    width: 25px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 20px 0px black;
+}
+.skill-description{
+    color:gray;
+}
+
+/* resume part */
+.resume-title{
+   text-align: center;
+}
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 60px;
+}
+.resume-container{
+    display: flex;
+    gap: 80px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-item-description, .resume-item-institute{
+    color: #757575
+}
+.resume-container hr{
+    margin: 30px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.Contact input[type="text"],.Contact input[type="email"],.Contact textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 70%;
+}
+.social-media a{
+    margin-right: 30px;
+}
+
+
+
+
+
+/* responsive style */
+.hide{
+    display: none;
+}
+
+/* mobile devices */
+@media screen and (max-width:576px){
+   nav,.banner,.skills-container,.resume-container,.about-info-container{
+        flex-direction: column;
+   }
+   .what-do-container{
+        padding: 22px;
+   }
+   footer,.about{
+     flex-direction: column;
+     padding: 10px;
+   }
+   .footer-colum{
+        width: 100%;
+   }
+   nav>ul>li{
+    padding: 10px;
+    display: flex;
+    font-size: 25x;
+    gap:10px;
+   }
+   .banner .Profile-pic{
+        width: 100%; 
+   }
+   .banner{
+    padding: 20px;
+   }
+} 
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .skills-container, .resume-container{
+        padding: 30px;
+    }
+}

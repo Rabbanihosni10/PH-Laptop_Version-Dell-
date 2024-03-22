@@ -1,0 +1,59 @@
+h3,#Tomake{
+    font-size: 30px;
+    color:red;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+}
+.hide{
+    /* display: none; */
+}
+#Tomake{
+    /* visibility: hidden; */
+}
+.blog{
+    text-decoration: overline;
+    margin: 20px;
+    border: 10px solid red;
+    padding: 5px;
+    box-shadow: 6px 10px 10px gray; /*1st er ta x axis r 2nd ta y axis borabor*/
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.incident{
+    border: 2px solid rgb(90, 128, 14);
+    height: 50px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+.header{
+  font: bolder;   
+  height: 400px;
+  width: 80%;
+  text-align: center;
+  text-decoration: overline;
+  background-color: aqua;
+  color: rgb(68, 117, 20);
+  background-image: url('25694.png');
+  background-image: url("../CSS/25694.png");
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  background-size: cover;
+  background-size: contain;
+  /* background-size: 50px; */
+}
+.doler{
+    border: 5px solid blue;
+    height: 60px;
+    display: block;
+    display: inline-block;
+}
