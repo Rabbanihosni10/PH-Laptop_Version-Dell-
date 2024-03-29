@@ -1,0 +1,18 @@
+html {
+    height: 100%;
+    width: fit-content;
+    justify-content: center;
+  }
+  .worker{
+    height: 550px;
+    width: 1170px;
+    border: 1mm black solid;
+  }
+  .border-area{
+      border: 1px dashed #ccc; 
+      border-radius: full;
+  }
+
+  #span-banner-name{
+    color: #797DFC;
+  }
