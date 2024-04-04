@@ -48,8 +48,8 @@ const output=multiply(12,12);
 const student={
     name:'Sakib khan',
     age:32,
-    movies:['King Khan','Dhakar Mastan'];
-}
+    movies:['King Khan','Dhakar Mastan']
+};  
 const myVariable='age';
 console.log(student.age);   //direct by property
 console.log(student[age]);  //access via property name string
