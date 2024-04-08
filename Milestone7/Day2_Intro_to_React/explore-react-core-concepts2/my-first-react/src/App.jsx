@@ -3,12 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './toDo'
-
+// import Actor from './Actor'
 function App() {
-
+  // const actors=['Sakib','Shoriful Raj','Jashim','Rubel','Salman Shah'];
   return (
     <>
       <h1 className='student'>Vite + React</h1>
+      {/* <Actor name={"Bappa Raz"}></Actor>
+      {
+        actors.map(actor=><Actor name={actor}></Actor>)
+      } */}
+
       <Todo 
       task="Learn React"
       isDone={true}>
@@ -69,4 +74,3 @@ const Developer=()=>{
     </div>
   )
 }
-export default App
