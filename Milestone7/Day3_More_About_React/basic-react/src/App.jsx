@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './countTari'
+import Team from './team'
 function App() {
   const [count, setCount] = useState(0)
   function handleClick(){
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <Team></Team>
       <Counter></Counter>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Me 2</button>
