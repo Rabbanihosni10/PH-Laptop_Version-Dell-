@@ -11,7 +11,7 @@ export default function Team(){
     const handleAdd=()=>{
         const newTeam=team+1;
         setTeam(newTeam);
-    }
+     }
     const handleRemove=()=>{
         const newTeam=team-1;
         setTeam(newTeam);

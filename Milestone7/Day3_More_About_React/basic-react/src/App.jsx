@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './countTari'
 import Team from './team'
+import Users from './usage'
+import Friends from './friends'
 function App() {
   const [count, setCount] = useState(0)
   function handleClick(){
@@ -18,6 +20,8 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <Friends></Friends>
+      <Users></Users>
       <Team></Team>
       <Counter></Counter>
       <button onClick={handleClick}>Click Me</button>
