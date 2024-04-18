@@ -17,20 +17,28 @@ const Countries = () => {
     const  handleVisitedCountry= country =>{
         console.log('Add This to your visited country');
         console.log(country);
+        // visitedCountries.push(country);
+        const newVisitedCountries=[...visitedCountries,country];
+        setVisitedCountries(newVisitedCountries);
     }
     return (
         <div className="">
             <h3>Countries: {countries.length}</h3>
             <div>
-                <h5>Visited Countries--</h5>
-                <ul></ul>
+                <h5>Visited Countries: {visitedCountries.length}</h5>
+                {/* use key in map to avoid the warning  */}
+                <ul>
+                    {
+                        visitedCountries.map(country=><li key={country.cca3}>{country.name.common}</li>)
+                    }
+                </ul>
             </div>
             <div className="country-container">
                 {
                  countries.map(country=> <Country handleVisitedCountry={handleVisitedCountry} key={country.cca3} country={country}></Country>)
                 }
             </div>
-            <h3>Countries: {countries.length}</h3>
+            {/* <h3>Countries: {countries.length}</h3>
             <div className="country-container">    
                 {
                     countries.map(noya=><Noya key={noya.cca3} noya={noya}></Noya>)
@@ -41,7 +49,7 @@ const Countries = () => {
                 {
                     countries.map(new_country=> <New_Country key={new_country.cca3} new_country={new_country}></New_Country>)
                 }
-            </div>
+            </div> */}
         </div>
     );
 };
