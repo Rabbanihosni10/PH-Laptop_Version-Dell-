@@ -4,35 +4,40 @@
       "material": "BPA-free plastic",
       "capacity_ml": 1000,
       "color": "Blue",
-      "lid_type": "Screw-on"
+      "lid_type": "Screw-on",
+      "price": 10.99
     },
     {
       "brand": "Hydro Flask",
       "material": "Stainless steel",
       "capacity_ml": 710,
       "color": "Black",
-      "lid_type": "Flip-top"
+      "lid_type": "Flip-top",
+      "price": 29.99
     },
     {
       "brand": "CamelBak",
       "material": "BPA-free plastic",
       "capacity_ml": 750,
       "color": "Red",
-      "lid_type": "Straw"
+      "lid_type": "Straw",
+      "price": 15.49
     },
     {
       "brand": "Contigo",
       "material": "BPA-free plastic",
       "capacity_ml": 590,
       "color": "Green",
-      "lid_type": "Autoseal"
+      "lid_type": "Autoseal",
+      "price": 12.75
     },
     {
       "brand": "Klean Kanteen",
       "material": "Stainless steel",
       "capacity_ml": 800,
       "color": "Silver",
-      "lid_type": "Screw-on"
+      "lid_type": "Screw-on",
+      "price": 24.95
     }
   ]
   
