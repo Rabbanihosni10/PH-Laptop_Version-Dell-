@@ -1,53 +1,43 @@
 [
     {
       "id": "001",
-      "cover": "https://via.placeholder.com/150/0000FF/808080?text=cover+1",
+      "cover": "src/images/1.jpg",
       "title": "The Enchanted Forest",
       "author": "Alex Harper",
-      "author_img": "https://via.placeholder.com/150/FF0000/FFFFFF?text=alex+harper",
+      "author_img": "src/images/boy1.png",
       "posted_date": "2024-05-15",
       "reading_time": 15,
       "hashtags": ["#Fantasy", "#Adventure", "#Magic"]
     },
     {
       "id": "002",
-      "cover": "https://via.placeholder.com/150/008000/FFFFFF?text=cover+2",
+      "cover": "src/images/2.png",
       "title": "Whispers of the Past",
       "author": "Taylor Smith",
-      "author_img": "https://via.placeholder.com/150/000000/FFFFFF?text=taylor+smith",
+      "author_img": "src/images/girl1.jpg",
       "posted_date": "2024-05-10",
       "reading_time": 20,
       "hashtags": ["#Historical", "#Mystery", "#Drama"]
     },
     {
       "id": "003",
-      "cover": "https://via.placeholder.com/150/FFA500/FFFFFF?text=cover+3",
+      "cover": "src/images/3.png",
       "title": "Journey to the Stars",
       "author": "Casey Lee",
-      "author_img": "https://via.placeholder.com/150/FFFF00/000000?text=casey+lee",
+      "author_img": "src/images/girl2.jpg",
       "posted_date": "2024-05-20",
       "reading_time": 30,
       "hashtags": ["#ScienceFiction", "#Space", "#Adventure"]
     },
     {
       "id": "004",
-      "cover": "https://via.placeholder.com/150/FFC0CB/000000?text=cover+4",
+      "cover": "src/images/4.jpg",
       "title": "Echoes in the Silence",
       "author": "Jordan Blake",
-      "author_img": "https://via.placeholder.com/150/800080/FFFFFF?text=jordan+blake",
+      "author_img": "src/images/boy2.png",
       "posted_date": "2024-05-18",
       "reading_time": 25,
       "hashtags": ["#Thriller", "#Suspense", "#Crime"]
-    },
-    {
-      "id": "005",
-      "cover": "https://via.placeholder.com/150/00FFFF/000000?text=cover+5",
-      "title": "Love in the Time of AI",
-      "author": "Morgan Rivers",
-      "author_img": "https://via.placeholder.com/150/FF00FF/FFFFFF?text=morgan+rivers",
-      "posted_date": "2024-05-22",
-      "reading_time": 18,
-      "hashtags": ["#Romance", "#Technology", "#Future"]
     }
   ]
   
