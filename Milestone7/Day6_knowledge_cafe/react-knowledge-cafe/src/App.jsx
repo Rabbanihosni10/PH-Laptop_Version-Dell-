@@ -7,13 +7,17 @@ function App() {
   // const [count, setCount] = useState(0)
   const [bookmarks, setBookmarks]=useState([]);
   const [readingTime,setreadingTime]=useState(0);
-  const handleMarkAsRead=time=>{
-    const newReadingTime=readingTime+time;
-    setreadingTime(newReadingTime);
-  }
   const handleAddToBookmark=blog=>{
     const newBookMarks=[...bookmarks,blog];
     setBookmarks(newBookMarks);
+  }
+  const handleMarkAsRead=(time,id)=>{
+    const newReadingTime=readingTime+time;
+    setreadingTime(newReadingTime);
+    // remove the read blog from book mark
+    // console.log('Remove Bookmark',id)
+    const remainingBookmarks= bookmarks.filter(bookmark=>bookmark.id!==id);
+    setBookmarks(remainingBookmarks);
   }
   return (
     <>

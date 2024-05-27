@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { RiBookmarkLine } from "react-icons/ri";
 const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
-    const {title,cover,author,author_img,posted_date,reading_time,hashtags}=blog;
+    const {id,title,cover,author,author_img,posted_date,reading_time,hashtags}=blog;
     console.log(blog)
     return (
         <div className='mb-20 space-y-4'>
@@ -25,7 +25,10 @@ const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
                     hashtags.map((hash, idx)=> <span key={idx} className='ml-2'><a href=''>{hash}</a></span>)
                 }
             </p>
-            <button onClick={()=>handleMarkAsRead(reading_time)} className=' text-purple-600 font-bold underline'>Mark as read..</button>
+            <button onClick={
+                ()=>handleMarkAsRead(reading_time,id)} 
+            className=' text-purple-600 font-bold underline'>
+                Mark as read..</button>
         </div>
     );
 };
